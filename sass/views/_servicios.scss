@@ -13,5 +13,27 @@
         transform: scale(1.1);
     }
 }
+.marcas{
+    padding: $spacing-medium;
+    &__titulo{
+        font-family:$font-titulo;
+        color:map-get($colores,primary);
+    }
+    &__logos{
+        @include flex(null,space-evenly,center);
+        gap:$spacing-medium;
+        flex-wrap: wrap;
+        padding: $spacing-small;
+        &__img{            
+            width: 110px;
+            height: 50px;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                cursor:pointer;
+                transform: scale(1.1);
+            } 
+        }
+    }   
+}
 
 

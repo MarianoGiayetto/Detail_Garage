@@ -8,8 +8,9 @@
 }
 
 .texto__nosotros{
-    font-size: $text-small;
-    text-align:justify;
+    font-size: $text-base;
+    font-family: $font-principal;
+    text-align:center;
     color: map-get($colores,text-color);
     padding: $spacing-xsmall;   
 }
