@@ -1,0 +1,15 @@
+.nosotros{
+    @include flex(column,null,center);
+    padding: $spacing-large;
+}
+.titulo__nosotros{
+    color: map-get($colores,primary);
+    font-family: $font-titulo;    
+}
+
+.texto__nosotros{
+    font-size: $text-small;
+    text-align:justify;
+    color: map-get($colores,text-color);
+    padding: $spacing-xsmall;   
+}
