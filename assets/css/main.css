@@ -1,9 +1,11 @@
 @charset "UTF-8";
+/*Variables*/
 /*Colores*/
 /*Fondos*/
 /*Fuentes*/
 /*Espaciado*/
 /*Tamaño Fuentes*/
+/*Estilos Globales*/
 @import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 * {
@@ -30,6 +32,7 @@ img {
 main {
   background: linear-gradient(to bottom, #abbaab, #ffffff); }
 
+/*Estilos Header*/
 header {
   border-bottom: 2px solid #fb3640;
   background: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea); }
@@ -48,6 +51,7 @@ header {
     transform: scaleX(1);
     border-bottom: 1px solid black; }
 
+/*Estilos Index*/
 .carousel-caption {
   bottom: 2rem;
   z-index: 10; }
@@ -95,6 +99,7 @@ header {
   .tarjetas {
     padding: 2rem; } }
 
+/*Estilos Footer*/
 footer {
   display: flex;
   justify-content: space-around;
@@ -147,6 +152,7 @@ footer {
     flex-direction: column;
     align-items: center; } }
 
+/*Estilos Servicios*/
 .servicios__titulo {
   color: #29274c;
   padding: 6rem;
@@ -180,6 +186,7 @@ footer {
         cursor: pointer;
         transform: scale(1.1); }
 
+/*Estilos Galeria*/
 .seccion__galeria__titulo {
   color: #29274c;
   padding: 6rem;
@@ -193,6 +200,7 @@ footer {
     opacity: 1;
     cursor: pointer; }
 
+/*Estilos Acerca de Nosotros */
 .nosotros {
   display: flex;
   flex-direction: column;
@@ -210,6 +218,26 @@ footer {
   color: #14213d;
   padding: 1rem; }
 
+.nosotros__tarjeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; }
+  .nosotros__tarjeta__texto {
+    font-size: 1.6em;
+    text-align: center;
+    margin: 20px;
+    font-family: "Anek", sans-serif; }
+  .nosotros__tarjeta__imagen {
+    width: 50%;
+    height: auto;
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out; }
+    .nosotros__tarjeta__imagen:hover {
+      opacity: 1;
+      cursor: pointer; }
+
+/*Estilos Contacto*/
 .contacto {
   display: flex;
   flex-direction: column;

@@ -1,4 +1,5 @@
-/*Colores*/
+/*Variables*/
+    /*Colores*/
 $colores: (
     primary: #29274c,
     secondary:#fb3640,
@@ -6,21 +7,21 @@ $colores: (
     text-color:#14213d,
 );
 
-/*Fondos*/
+    /*Fondos*/
 $fondo-main: linear-gradient(to bottom, #abbaab, #ffffff);
 $fondo-header: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 
-/*Fuentes*/
+    /*Fuentes*/
 $font-principal:'Anek', sans-serif;
 $font-titulo: 'Kanit', sans-serif;
 
- /*Espaciado*/
+    /*Espaciado*/
 $spacing-large: 6rem;
 $spacing-medium: 2.4rem;
 $spacing-small: 2rem;
 $spacing-xsmall: 1rem;
 
-/*Tamaño Fuentes*/
+    /*Tamaño Fuentes*/
 $text-large: 5.2em;
 $text-medium: 2.2em;
 $text-base: 1.6em;
