@@ -83,13 +83,19 @@ header {
     transition: all 1s ease-in-out; }
     .box__img:hover {
       opacity: 1;
-      transform: scale(1.2); }
+      transform: scale(1.1); }
 
 .galeria__img2 {
   transition: all 0.5s ease-in-out; }
   .galeria__img2:hover {
     cursor: pointer;
     box-shadow: 0px 0px 20px black; }
+
+.del__border {
+  border: none; }
+
+.gallery-expand {
+  width: 100%; }
 
 @media screen and (max-width: 570px) {
   .tarjetas {
