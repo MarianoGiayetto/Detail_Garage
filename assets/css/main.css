@@ -35,7 +35,11 @@ main {
 /*Estilos Header*/
 header {
   border-bottom: 2px solid #fb3640;
-  background: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea); }
+  background: linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb 85%, #eaeaea); }
+
+.img__logo {
+  height: 170px;
+  width: auto; }
 
 .nav-link {
   font-size: 1.6em; }
@@ -50,6 +54,11 @@ header {
   .nav-link:hover:after {
     transform: scaleX(1);
     border-bottom: 1px solid black; }
+
+@media screen and (max-width: 992px) {
+  .img__logo {
+    height: 130px;
+    width: auto; } }
 
 /*Estilos Index*/
 .carousel-caption {
